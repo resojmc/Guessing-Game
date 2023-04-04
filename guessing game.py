@@ -15,7 +15,7 @@ while status != 0:
     guess = input("Guess a number from 0 - 10: ")
     guess = int(guess)
     if guess == number:
-        print(f"{number} was the number! Well Done!")
+        print(f"{number} is the number! Well Done!")
         break
  
     elif guess != number and guess < 11 and guess > -1:
